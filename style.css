@@ -1,0 +1,284 @@
+:root {
+    --nav-brown-color: #660014;
+    --universal-black: #0D0E10;
+    --background-color: rgba(0, 0, 0, 0.87);
+    --white-color: #FFFFFF;
+    --gold-color: rgb(193, 163, 98);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+/* NAV Starts */
+
+nav{
+    width: 100%;
+    background-color: var(--universal-black);
+    height: 80px;
+    padding: 0 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav .left-side{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+nav .left-side .left-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+nav .left-content button {
+    position: relative;
+    height: 2rem;
+    color: rgb(193, 163, 98);
+    margin: auto;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 6px 14px;
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+nav .left-side ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav ul li.active{
+    border: 1px solid #FFFFFF;
+    border-radius: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    min-width: 64px;
+}
+
+nav .right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .right-side .search-bar{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgb(255, 255, 255);
+    cursor: text;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 2.64rem;
+    position: relative;
+    padding: 0 14px;
+    gap: 1rem;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-radius: 32px;
+    transition: border-color 0.3s ease-in-out 0s;
+}
+
+nav .search-bar input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: none;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    padding: 16.5px 0px;
+}
+
+nav .right-side img{
+    height: 11%;
+    width: 11%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+}
+
+/* Nav Ends */
+/* ---------------------Your Css here----------------------------- */
+/* Footer Starts */
+footer{
+    width: 100%;
+    background-color: rgb(31, 28, 28);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+footer .main{
+    width: 100%;
+    padding: 40px 24px 24px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .left-fr-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+footer .main h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+footer .footer-content-list-1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .left-fr-side ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    line-height: 1.2;
+    color: #D9D6E5
+}
+
+footer .right-fr-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+footer .socials{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .right-fr-side ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    line-height: 1.2;
+    color: #D9D6E5
+}
+
+footer .right-fr-side h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5625rem;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+footer .right-fr-side .connect h4 {
+    margin-bottom: 25px;
+}
+
+footer .right-fr-side .socials ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.12);
+    height: 56px;
+    width: 56px;
+    border-radius: 56px;
+}
+
+footer .right-fr-side .socials li i{
+        color: #FFFFFF;
+        font-size: 1.54rem;
+        margin: auto;
+        cursor: pointer;
+        margin-right: 16px;
+}
+
+footer .copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 24px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.12);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)),#17181A;
+}
+
+footer .copyright p{
+        margin: 0;
+        font-family: JioType Var;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.75rem;
+        color: #FFFFFF;
+        line-height: 1.2;
+}
+
+footer .copyright img{
+    height: 5vh;
+    width: 3vw;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+}
