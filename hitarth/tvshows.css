@@ -198,6 +198,14 @@ nav .right-side img{
     margin-left: 20px;
 }
 
+.Tv-Shows img{
+  width: 3rem;
+  text-align: center;
+  object-fit: cover;
+  color: transparent;
+  text-indent: 10000px;
+}
+
 
 
 
