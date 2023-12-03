@@ -242,7 +242,7 @@ nav .right-side img {
 
 
 /* Ad 2 */
-.ad2 {
+.hitad2 {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
@@ -252,7 +252,8 @@ nav .right-side img {
     align-items: center;
 }
 
-.ad2 img {
+.hitad2 img {
+    width: 1452px;
     max-width: 1452px;
     max-height: 311.14px;
     height: 311.14px;
@@ -546,7 +547,7 @@ nav .right-side img {
 
 
 /* Ad 3 */
-.ad3 {
+.hitad3 {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
@@ -556,12 +557,43 @@ nav .right-side img {
     align-items: center;
 }
 
-.ad3 img {
+.hitad3 img {
+    width: 1452px;
     max-width: 1452px;
     max-height: 311.14px;
     height: 311.14px;
     border-radius: 8px;
 }
+
+
+/* Sequential */
+.ad5 {
+    width: 100%;
+    max-height: auto;
+    border-radius: 8px;
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ad5 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .ad5 a.active{
+    color: cyan;
+    text-decoration: underline;
+  }
+  
+  .ad5 a:hover{
+    color: cyan;
+    transition: color 0.5s ease-in-out;
+  }
 
 
 /* Footer Starts */
