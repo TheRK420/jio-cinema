@@ -34,6 +34,12 @@ nav .left-side {
     gap: 1rem;
 }
 
+nav .left-side a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
 nav .left-side .left-content {
     display: flex;
     flex-direction: row;
