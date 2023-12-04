@@ -40,12 +40,6 @@ nav .left-side {
   gap: 1rem;
 }
 
-nav .left-side a{
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
 nav .left-side .left-content {
   display: flex;
   flex-direction: row;
@@ -150,6 +144,18 @@ main {
   width: 100%;
 }
 
+.top-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 97%;
+  cursor: pointer;
+}
+
+.top-content i{
+  color: white;
+}
+
 /* ad */
 .top-ad {
   padding: 16px;
@@ -230,6 +236,10 @@ main {
   overflow-y: hidden;
   padding-top: 20px;
   cursor: pointer;
+}
+
+.wrapper .item:hover{
+  filter: brightness(125%);
 }
 
 .wrapper::-webkit-scrollbar {
@@ -605,6 +615,34 @@ main {
 .ad5 a:hover{
   color: cyan;
   transition: color 0.5s ease-in-out;
+}
+
+.cr1 .item {
+  min-width: 161px;
+  width: 161px;
+  height: 161px;
+  margin-right: 16px;
+}
+
+.cr1 img {
+  object-fit: cover;
+  width: 161px;
+  height: 161px;
+  border-radius: 15px;
+}
+
+.cr2 .item {
+  min-width: 331px;
+  width: 331px;
+  height: 186.19px;
+  margin-right: 16px;
+}
+
+.cr2 img {
+  object-fit: cover;
+  width: 331px;
+  height: 186.19px;
+  border-radius: 15px;
 }
 
 /* Footer Starts */
