@@ -224,7 +224,7 @@ nav .right-side img {
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .wrapper::-webkit-scrollbar {
@@ -247,8 +247,122 @@ nav .right-side img {
 }
 
 
+/* logo and text on photo */
+
+.item{
+    position: relative;
+}
+
+.sliderLogo{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    overflow: hidden;
+    z-index: 1;
+    width: 400px;
+    left:30%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+
+
+.sliderLogo img{
+    /* position: absolute; */
+    /* top:60%; */
+    /* overflow: hidden; */
+    z-index: 1;
+    height: 150px;
+    width: 200px;
+    right: 50%;
+}
+
+
+#Hit3rd{
+    color: black;
+}
+
+.sliderLogo p{
+    /* position: absolute; */
+    color:white;
+    /* right :3rem; */
+    z-index: 1;
+} 
+
+
+
+
+   /* slider-button*/
+
+
+   .slider{
+    display: flex;
+    gap: 0.8rem;
+    /* justify-content: flex-end; */
+    /* margin-right: 5rem;
+    margin-top: -5rem; */
+    position: absolute;
+    right:5rem;
+    top: 45.7rem;
+}
+   .slider .circle1 , .circle2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+
+
+/* slider button  in btw the slides*/
+
+.sliderButton{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* margin-right: 5rem;
+    margin-top: -5rem; */
+    height: 50px;
+    width: 50px;
+    /* border-radius: 50%;
+    border: 2px solid white; */
+    color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.sliderButton i{
+    font-size: x-large;
+    font-weight: 1000;
+}
+   /* .slider .circle1 , .circle2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   } */
+
+
+   .heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+    align-items: center;
+   }
+
+
 /* Ad 2 */
-.hitad2 {
+.ad2 {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
@@ -256,9 +370,10 @@ nav .right-side img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 
-.hitad2 img {
+.ad2 img {
     width: 1452px;
     max-width: 1452px;
     max-height: 311.14px;
@@ -553,7 +668,7 @@ nav .right-side img {
 
 
 /* Ad 3 */
-.hitad3 {
+.ad3 {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
@@ -563,7 +678,7 @@ nav .right-side img {
     align-items: center;
 }
 
-.hitad3 img {
+.ad3 img {
     width: 1452px;
     max-width: 1452px;
     max-height: 311.14px;
@@ -571,9 +686,20 @@ nav .right-side img {
     border-radius: 8px;
 }
 
+/* .item{
+    opacity: 0.98;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+} */
+
+.wrapper .item:hover{
+     filter: brightness(120%);
+}
+
 
 /* Sequential */
-.ad5 {
+.seq {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
@@ -585,21 +711,35 @@ nav .right-side img {
     align-items: center;
   }
   
-  .ad5 a{
+  .seq a{
     text-decoration: none;
     color: white;
     cursor: pointer;
   }
   
-  .ad5 a.active{
+  .seq a.active{
     color: cyan;
     text-decoration: underline;
   }
   
-  .ad5 a:hover{
+  .seq a:hover{
     color: cyan;
     transition: color 0.5s ease-in-out;
   }
+
+
+
+
+   /* .slider .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   } */
 
 
 /* Footer Starts */
