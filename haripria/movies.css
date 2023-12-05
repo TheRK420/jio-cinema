@@ -47,6 +47,10 @@ nav .left-side .left-content{
     gap: 1rem;
 }
 
+nav .right-side .ham {
+  visibility: hidden;
+}
+
 nav .left-content button {
     position: relative;
     height: 2rem;
@@ -71,6 +75,10 @@ nav .left-side ul{
     margin: auto;
 }
 
+.right-side input:focus{
+  outline: none;
+}
+
 nav ul li.active{
     border: 1px solid #FFFFFF;
     border-radius: 48px;
@@ -80,6 +88,13 @@ nav ul li.active{
     padding: 12px 8px;
     min-width: 64px;
 }
+
+.left-side li a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
 
 nav .right-side{
     display: flex;
@@ -839,7 +854,34 @@ main {
   */
 
 /*-----------------------------rik--------------------------------*/
+/* Sequential */
+.ad5 {
+  width: 100%;
+  max-height: auto;
+  border-radius: 8px;
+  background-color: black;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
+.ad5 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.ad5 a.active {
+  color: cyan;
+  text-decoration: underline;
+}
+
+.ad5 a:hover {
+  color: cyan;
+  transition: color 0.5s ease-in-out;
+}
 
 
 
@@ -1004,7 +1046,7 @@ footer {
   
 
 
-/* RESPONSIVENESS STARTS HERE 
+/* RESPONSIVENESS STARTS HERE */
 
 @media only screen and (max-width: 1440px) {
   .ad3 img {
@@ -1019,14 +1061,18 @@ footer {
   nav {
     gap: 2rem;
   }
-  .ad3 img {
-    height: 207px;
+  .c1 .item{
+    width: 906px;
+    height: 341px;
   }
-  .ad4 img {
-    height: 207px;
+
+  .c1 .img{
+    height: 347px;
+    width: 827px;
   }
-  .ad2 img {
-    height: 76px;
+
+  .slider{
+    top: 35.7rem;
   }
 }
 
@@ -1039,6 +1085,10 @@ footer {
 
   nav .right-side .ham {
     visibility: visible;
+  }
+
+  .slider{
+    display: none;
   }
 
   .ad3 img {
@@ -1056,6 +1106,11 @@ footer {
     width: 3vw;
     height: auto;
     margin-right: -2.7rem;
+  }
+
+  .single-img img{
+    height: 186px;
+    width: 667px;
   }
 
   .c1 img {
@@ -1080,13 +1135,18 @@ footer {
   }
 }
 
-@media only screen and (max-width: 452px) {
+@media only screen and (max-width: 425px) {
   nav {
     gap: 5rem;
   }
 
   .top-ad {
     display: none;
+  }
+
+  .single-img img{
+    height: 132px;
+    width: 384px;
   }
 
   .ad3 img {
@@ -1113,13 +1173,13 @@ footer {
 
   .c4 .item {
     width: 47vw;
-    height: 10vh;
-    margin-right: -28.5rem;
+    height: 31vh;
+    margin-right: -0.5rem;
   }
 
   .c4 img {
     width: 47vw;
-    height: 10vh;
+    height: 31vh;
   }
 
   footer .right-fr-side {
@@ -1127,4 +1187,82 @@ footer {
   }
 }
 
-*/
+@media only screen and (max-width: 375px) {
+  nav {
+    gap: 3rem;
+  }
+
+  .top-ad {
+    display: none;
+  }
+
+  .single-img img{
+    height: 108px;
+    width: 353px;
+  }
+
+  .c2 .item{
+    margin-right: -18rem;
+  }
+
+  .ad3 img {
+    height: 75px;
+  }
+  .ad4 img {
+    height: 75px;
+  }
+  .ad2 img {
+    height: 28px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  nav {
+    gap: 0rem;
+  }
+
+  nav .left-content button{
+    display: none;
+  }
+
+  .single-img img{
+    width: 285px;
+  }
+
+  .c1 .item{
+    margin-right: -0.7rem;
+  }
+
+  .top-ad {
+    display: none;
+  }
+
+  .c2 .item{
+    margin-right: -19rem;
+  }
+
+  .c4 .item{
+    width: 56vw;
+    height: 31vh;
+    margin-right: -2.5rem;
+  }
+
+  .c4 .item{
+    width: 56vw;
+    height: 31vh;
+  }
+
+  .ad5{
+    gap: 1rem;
+  }
+  
+  .ad3 img {
+    height: 61px;
+  }
+  .ad4 img {
+    height: 61px;
+  }
+  .ad2 img {
+    height: 22px;
+  }
+}

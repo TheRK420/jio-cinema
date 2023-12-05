@@ -35,6 +35,20 @@ nav{
     color: white;
 }
 
+nav .right-side .ham {
+    visibility: hidden;
+  }
+
+  .left-side li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+nav .search-bar input:focus {
+    outline: none;
+  }
+
 nav .left-side{
     display: flex;
     flex-direction: row;
@@ -375,6 +389,9 @@ main {
 }
 .spo_ad {
     padding: 1% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .third_ad {
@@ -391,6 +408,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .down-side {
@@ -470,6 +488,35 @@ main {
     padding-top: 2%;
     margin-top: 1%;
 }
+
+/* Sequential */
+.ad5 {
+    width: 100%;
+    max-height: auto;
+    border-radius: 8px;
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ad5 a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .ad5 a.active {
+    color: cyan;
+    text-decoration: underline;
+  }
+  
+  .ad5 a:hover {
+    color: cyan;
+    transition: color 0.5s ease-in-out;
+  }
 
 /* small device */
 
@@ -618,11 +665,106 @@ footer .copyright p{
         line-height: 1.2;
 }
 
-footer .copyright img{
-    height: 5vh;
-    width: 3vw;
+footer .copyright img {
+    width: 3rem;
     text-align: center;
     object-fit: cover;
     color: transparent;
     text-indent: 10000px;
-}
+  }
+
+  /* RESPONSIVENESS STARTS HERE */
+  
+  @media only screen and (max-width: 1024px) {
+    nav {
+      gap: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    nav .right-side .search-bar,
+    nav .left-side ul,
+    nav .right-side img {
+      display: none;
+    }
+  
+    nav .right-side .ham {
+      visibility: visible;
+    }
+
+    .score_carousal{
+        display: none;
+    }
+  
+   .second_ad{
+    width: 570px;
+   }
+  
+    footer .main {
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 452px) {
+    nav {
+      gap: 5rem;
+    }
+  
+    .ab-top-ad {
+      display: none;
+    }
+
+    .big-sport-img{
+        width: 304px;
+        height: 202px;
+    }
+
+    .second_ad{
+        width: 316px;
+        height: 49px;
+    }
+
+    .third_ad{
+        height: 137px;
+    }
+  
+    footer .right-fr-side {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    nav {
+      gap: 3rem;
+    }
+  
+    .ab-top-ad {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    nav {
+      gap: 0rem;
+    }
+  
+    nav .left-content button{
+      display: none;
+    }
+  
+    .second_ad{
+        width: 226px;
+        height: 31px;
+    }
+
+    .big-sport-img{
+        width: 203px;
+        height: 120px;
+    }
+  
+    .ab-top-ad {
+      display: none;
+    }
+  }
+  
