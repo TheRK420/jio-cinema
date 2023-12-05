@@ -39,6 +39,7 @@
   <li>Home Page</li>
   <li>Sports Page</li>
   <li>Movies Page</li>
+  <li>TV Shows page</li>
   <li>News Page</li>
 </ul>
 
