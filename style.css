@@ -933,3 +933,68 @@ footer .copyright img {
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  nav {
+    gap: 3rem;
+  }
+
+  .top-ad {
+    display: none;
+  }
+
+  .c2 .item{
+    margin-right: -18rem;
+  }
+
+  .ad3 img {
+    height: 75px;
+  }
+  .ad4 img {
+    height: 75px;
+  }
+  .ad2 img {
+    height: 28px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  nav {
+    gap: 0rem;
+  }
+
+  nav .left-content button{
+    display: none;
+  }
+
+  .c1 .item{
+    margin-right: -0.7rem;
+  }
+
+  .top-ad {
+    display: none;
+  }
+
+  .c2 .item{
+    margin-right: -19rem;
+  }
+
+  .c4 .item{
+    margin-right: -31.5rem;
+  }
+
+  .ad5{
+    gap: 1rem;
+  }
+  
+  .ad3 img {
+    height: 61px;
+  }
+  .ad4 img {
+    height: 61px;
+  }
+  .ad2 img {
+    height: 22px;
+  }
+}
+
