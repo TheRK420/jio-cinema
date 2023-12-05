@@ -9,7 +9,7 @@
 <p>This project was assigned by Geekster as a Major Project for a team of 8 members:</p>
 
 <ul>
-  <li>Sourasish</li>
+  <li>Sourasish (Captain)</li>
   <li>Haripriyaa</li>
   <li>Abesh Sarkar</li>
   <li>Hitarth Singh</li>
@@ -18,11 +18,11 @@
   <li>Aditya</li>
 </ul>
 
-<h6>And Kaveri Chougule was appointed as a mentor for the same.</h6>
+<h5>And Kaveri Chougule was appointed as a mentor for the same.</h5>
 
 <h1>Features:-</h1>
 <ol>
-  <li>Home Page</li>
+  <li>User Interface (UI) Design</li>
   <li>Search Functionality</li>
   <li>Responsive Design</li>
   <li>Implemented semantic HTML tags throughout the project to enhance accessibility, readibility and structure.</li>
@@ -35,6 +35,8 @@
 </ol>
 
 <h1>PROJECTS ASSIGNED:-</h1>
+
+JioCinema's
 <ul>
   <li>Home Page</li>
   <li>Sports Page</li>
