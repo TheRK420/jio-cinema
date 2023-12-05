@@ -317,7 +317,7 @@ nav .right-side img {
     margin-top: -5rem; */
     position: absolute;
     right:5rem;
-    top: 45.7rem;
+    top: 35.7rem;
 }
    .slider .circle1 , .circle2{
     height: 50px;
@@ -915,6 +915,14 @@ footer .copyright img {
     }
     .ad4 img {
       height: 298px;
+    }
+
+    .ad2 img{
+      height: 302px;
+    }
+
+    .slider{
+      display: none;
     }
   }
   
