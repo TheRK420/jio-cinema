@@ -1,4 +1,4 @@
-#MOVIE PAGE
+<h1>MOVIE PAGE</h1>
 <h1>Introduction</h1>
 <p>The movie page on JioCinema serves as a comprehensive and user-friendly hub for each individual film within its extensive library. Users can explore and engage with a variety of features designed to enhance their viewing experience.</p>
 <h1>Features</h1>
