@@ -1,4 +1,4 @@
-# jio-cinema
+# Jio-Cinema
 <h1>Introduction to the Project</h1>
 <p>Welcome to the JioCinema website repository! This project aims to create a web application that replicates the functionality of JioCinema, offering a platform for streaming movies, TV shows, and more. These projects were provided to test the skills and creativity of members against what has been covered in the past modules.</p>
 
