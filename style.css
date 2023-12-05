@@ -312,6 +312,97 @@ main {
   border-radius: 15px;
 }
 
+/* slider-button*/
+
+
+.slider{
+  display: flex;
+  gap: 0.8rem;
+  /* justify-content: flex-end; */
+  /* margin-right: 5rem;
+  margin-top: -5rem; */
+  position: absolute;
+  right:5rem;
+  top: 36.7rem;
+}
+ .slider .circle1 , .circle2{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+
+ /* logo and text on photo */
+
+.item{
+  position: relative;
+}
+
+.sliderLogo{
+  display: flex;
+  position: absolute;
+  top: 55%;
+  overflow: hidden;
+  z-index: 1;
+  width: 400px;
+  left:30%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} 
+
+
+.sliderLogo img{
+  /* position: absolute; */
+  /* top:60%; */
+  /* overflow: hidden; */
+  z-index: 1;
+  height: 150px;
+  width: 230px;
+  right: 50%;
+}
+
+
+#Hit3rd{
+  color: black;
+}
+
+.sliderLogo p{
+  /* position: absolute; */
+  color:white;
+  /* right :3rem; */
+  z-index: 1;
+} 
+
+
+
+/* slider button  in btw the slides*/
+
+.sliderButton{
+  display: flex;
+  /* justify-content: flex-end; */
+  /* margin-right: 5rem;
+  margin-top: -5rem; */
+  height: 50px;
+  width: 50px;
+  /* border-radius: 50%;
+  border: 2px solid white; */
+  color: white;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.sliderButton i{
+  font-size: x-large;
+  font-weight: 1000;
+}
+
 /* carousel 3 */
 .carousel3 {
   width: 100%;
@@ -826,6 +917,9 @@ footer .copyright img {
   .ad4 img {
     height: 298px;
   }
+  .slider{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -868,12 +962,14 @@ footer .copyright img {
     min-width: 55vw;
     width: 3vw;
     height: auto;
+    
     margin-right: -2.7rem;
   }
 
   .c1 img {
     height: 19vh;
     width: 47vw;
+    background-color: linear-gradient(0deg, rgb(0, 0, 0), transparent);
   }
 
   .c2 .item {
@@ -885,6 +981,14 @@ footer .copyright img {
   .c2 img {
     width: 40vw;
     height: 11vh;
+  }
+
+  .slider{
+    display: none;
+  }
+
+  .sliderLogo{
+    display: none;
   }
 
   footer .main {
