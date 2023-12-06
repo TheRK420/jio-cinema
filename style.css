@@ -139,10 +139,18 @@ nav .search-bar input:focus {
 }
 
 nav .right-side img {
-  width: 11%;
+  width: 61%;
   object-fit: cover;
   color: transparent;
   text-indent: 10000px;
+}
+
+nav .right-side a {
+  width: 4rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Nav Ends */

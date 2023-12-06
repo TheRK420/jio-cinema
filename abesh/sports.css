@@ -143,13 +143,20 @@ nav .search-bar input {
 }
 
 nav .right-side img{
-    height: 11%;
-    width: 11%;
+    width: 61%;
     text-align: center;
     object-fit: cover;
     color: transparent;
     text-indent: 10000px;
 }
+
+nav .right-side a {
+    width: 4rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 /* <------sports page------> */
 

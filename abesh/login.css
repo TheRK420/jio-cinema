@@ -21,6 +21,11 @@ body {
     margin-bottom: 1.5rem;
 }
 
+#login a{
+    text-decoration: none;
+    color: white;
+}
+
 #mobile {
     display: flex;
     gap: 1rem;
