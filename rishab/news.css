@@ -862,6 +862,7 @@ footer {
     background-color: rgb(31, 28, 28);
     height: auto;
     display: flex;
+    font-family: "Roboto", sans-serif;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
