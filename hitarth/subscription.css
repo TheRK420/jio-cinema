@@ -186,9 +186,8 @@ nav .right-side img {
      padding: 0px;
     margin: 0px; 
     box-sizing: border-box; 
-    width: 95%; 
     height: 37em;
-    width: 95rem;
+    width: 100%;
    
  }
 
