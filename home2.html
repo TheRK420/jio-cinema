@@ -8,8 +8,9 @@
       crossorigin="anonymous"
     ></script>
     <title>JIO CINEMA</title>
-    <link rel="icon" href="./assets/jio-logo.png">
+    <link rel="icon" href="./assets/jio-logo.png" />
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- ---------------------------------------------------------NAVBAR STARTS----------------------------------------------------------------- -->
@@ -32,7 +33,9 @@
           <input type="search" placeholder="Search" id="search" />
           <i class="fa-solid fa-microphone"></i>
         </div>
-        <img src="./assets/profile_avatar-v2.svg" alt="profile icon" />
+        <a href="./abesh/login.html"
+          ><img src="./assets/profile_avatar-v2.svg" alt="profile icon"
+        /></a>
         <div class="ham"><i class="fa-solid fa-bars"></i></div>
       </div>
     </nav>
@@ -43,7 +46,7 @@
     <main>
       <br />
       <!-- ---------------------------Ad 3----------------------- -->
-      <div class="ad3">
+      <div class="ad3" data-aos="zoom-in" data-aos-duration="300">
         <img src="./assets/pg2ad1.avif" alt="" />
       </div>
       <br />
@@ -65,7 +68,7 @@
         </div> -->
       </div>
       <!-- --------------------------First Carousel---------------------------- -->
-      <div class="carousel3">
+      <div class="carousel3" data-aos="fade-left" data-aos-duration="300">
         <div class="top-content">
           <h4>New & Popular 🔥</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -92,7 +95,7 @@
       <br />
 
       <!-- --------------------------Second Carousel---------------------------- -->
-      <div class="carousel5">
+      <div class="carousel5" data-aos="fade-right" data-aos-duration="300">
         <div class="top-content">
           <h4>Binge-Worthy Shows</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -118,7 +121,7 @@
       </div>
       <br />
       <!-- --------------------------Third Carousel---------------------------- -->
-      <div class="carousel6">
+      <div class="carousel6" data-aos="fade-left" data-aos-duration="300">
         <div class="top-content">
           <h4>Key Tournaments</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -144,7 +147,7 @@
       </div>
       <br />
       <!-- --------------------------Fourth Carousel---------------------------- -->
-      <div class="carousel5">
+      <div class="carousel5" data-aos="fade-right" data-aos-duration="300">
         <div class="top-content">
           <h4>Movies You Can't Miss</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -170,7 +173,7 @@
       </div>
       <br />
       <!-- --------------------------Fifth Carousel---------------------------- -->
-      <div class="carousel5">
+      <div class="carousel5" data-aos="fade-left" data-aos-duration="300">
         <div class="top-content">
           <h4>Hollywood's Finest</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -196,7 +199,7 @@
       </div>
       <br />
       <!-- --------------------------Sixth Carousel---------------------------- -->
-      <div class="carousel5">
+      <div class="carousel5" data-aos="fade-right" data-aos-duration="300">
         <div class="top-content">
           <h4>Dial M For Murder</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -222,7 +225,7 @@
       </div>
       <br />
       <!-- --------------------------Seventh Carousel---------------------------- -->
-      <div class="carousel10">
+      <div class="carousel10" data-aos="fade-left" data-aos-duration="300">
         <h4>Top Global Studios</h4>
         <div class="wrapper cr2">
           <div class="item"><img src="./assets/c7i1.avif" alt="" /></div>
@@ -231,7 +234,7 @@
       </div>
       <br />
       <!-- --------------------------Eighth Carousel---------------------------- -->
-      <div class="carousel5">
+      <div class="carousel5" data-aos="fade-right" data-aos-duration="300">
         <div class="top-content">
           <h4>Top Searches 🔍</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -257,7 +260,7 @@
       </div>
       <br />
       <!-- --------------------------Nineth Carousel---------------------------- -->
-      <div class="carousel5">
+      <div class="carousel5" data-aos="fade-left" data-aos-duration="300">
         <div class="top-content">
           <h4>Shows Worth Watching</h4>
           <i class="fa-solid fa-chevron-right"></i>
@@ -282,8 +285,8 @@
         </div>
       </div>
       <br />
-       <!-- ---------------------------Sequential----------------------- -->
-       <div class="ad5">
+      <!-- ---------------------------Sequential----------------------- -->
+      <div class="ad5" data-aos="zoom-in" data-aos-duration="300">
         <div class="number1">
           <a href="./index.html">1</a>
         </div>
@@ -346,5 +349,9 @@
       </div>
     </footer>
     <!-- --------------------------------------------------------FOOTER ENDS----------------------------------------------------------------------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

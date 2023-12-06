@@ -4,6 +4,9 @@
     --nav-brown-color: #660014;
 }
 
+body {
+    background-color: black;
+}
 
 *{
     margin: 0;
@@ -12,10 +15,10 @@
 }
 
 /* NAV Starts */
-body {
+/* body {
     background: rgb(13, 14, 16);
-    /* margin-left: 1rem; */
-}
+    margin-left: 1rem;
+} */
 
 h1,h2,h3,h4,h5,h6,p,a,span,button,li,input,textarea,label,select,option {
     font-family: "Open-Sans", sans-serif;
@@ -31,6 +34,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    animation: navcolorchange 12s alternate infinite ease-in-out;
     align-items: center;
     color: white;
 }
@@ -145,13 +149,64 @@ nav .search-bar input {
 }
 
 nav .right-side img{
-    height: 11%;
-    width: 11%;
+    width: 61%;
     text-align: center;
     object-fit: cover;
     color: transparent;
     text-indent: 10000px;
 }
+
+nav .right-side a {
+    width: 4rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes colorchange{
+    0%{
+      background: linear-gradient(151deg, rgb(68,68,7) 0%, rgba(0,0,0,1) 27%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 100%);
+    }
+  
+    25%{
+      background: linear-gradient(151deg, rgb(0,0,0) 0%, rgba(0,0,0,1) 27%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 100%);
+    }
+  
+    50%{
+      background: linear-gradient(151deg, rgb(52, 23, 53) 0%, rgba(0,0,0,1) 27%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 100%);
+    }
+  
+    75%{
+      background: linear-gradient(151deg, rgb(68,22,7) 0%, rgba(0,0,0,1) 27%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 100%);
+    }
+  
+    100%{
+      background: linear-gradient(151deg, rgb(68, 68, 7) 0%, rgba(0,0,0,1) 27%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 100%);
+    }
+  }
+  
+  @keyframes navcolorchange{
+    0%{
+      background: rgb(49, 49, 4);
+    }
+  
+    25%{
+      background: rgb(0,0,0);
+    }
+  
+    50%{
+      background: rgb(40, 19, 41);
+    }
+  
+    75%{
+      background: rgb(58, 18, 5);
+    }
+  
+    100%{
+      background: rgb(51, 51, 5);
+    }
+  }
 
 /* <------sports page------> */
 
@@ -167,6 +222,7 @@ nav .right-side img{
 } */
 main {
     padding-left: 1rem;
+    animation: colorchange 12s alternate infinite ease-in-out;
 }
 /* ad */
 .ab-right-content {
@@ -247,6 +303,7 @@ main {
 .spo-text {
     color: #FFFFFF;
     padding-bottom: 8px;
+    /* overflow-y: auto; */
 }
 
 .sport-carousal {
@@ -326,6 +383,7 @@ main {
     /* overflow-y: hidden; */
     height: 154px;
     overflow-y: visible;
+    height: 199px;
 }
 
 .wrapper3 {
@@ -364,6 +422,7 @@ main {
     cursor: pointer;
      /* background-color: white; */
     opacity: 1; 
+    height: 160px;
 }
 
 .banner-img .spo-text {
@@ -373,6 +432,7 @@ main {
 .img_text {
     position: absolute;
     top: 80%;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
@@ -499,7 +559,7 @@ main {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     gap: 2rem;
     flex-direction: row;
@@ -521,6 +581,15 @@ main {
   .ad5 a:hover {
     color: cyan;
     transition: color 0.5s ease-in-out;
+  }
+
+    .ab-square {
+        height: 133px;
+        width: 133px;
+        cursor: pointer;
+    }
+  .ab-square:hover {
+        background-color: #3e3f41;
   }
 
 /* small device */
@@ -720,6 +789,10 @@ footer .copyright img {
       display: none;
     }
 
+    nav .right-side a{
+        display: none;
+      }
+
     .big-sport-img{
         width: 304px;
         height: 202px;
@@ -770,6 +843,10 @@ footer .copyright img {
   
     .ab-top-ad {
       display: none;
+    }
+
+    .ad5{
+        gap: 1rem;
     }
   }
   

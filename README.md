@@ -14,8 +14,6 @@
   <li>Abesh Sarkar</li>
   <li>Hitarth Singh</li>
   <li>Rishab</li>
-  <li>Pankaj Kumar</li>
-  <li>Aditya</li>
 </ul>
 
 <h5>And Kaveri Chougule was appointed as a mentor for the same.</h5>
