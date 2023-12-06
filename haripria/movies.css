@@ -66,6 +66,11 @@ nav .left-content button {
     z-index: 1;
 }
 
+nav .left-content button a{
+  text-decoration: none;
+  color: rgb(193, 163, 98);
+}
+
 nav .left-side ul{
     list-style-type: none;
     display: flex;
