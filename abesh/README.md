@@ -28,7 +28,7 @@ Footer:-
 ![Footer Screenshot]<img width="940" alt="Screenshot 2023-12-06 195828" src="https://github.com/TheRK420/jio-cinema/assets/149151223/51052511-8999-4669-a1ba-fcd0979fa7b7">
 
 
-Some Snaps from homepage:-
+Some Snaps from sportspage:-
 ![mm1 Screenshot]<img width="916" alt="Screenshot 2023-12-06 195717" src="https://github.com/TheRK420/jio-cinema/assets/149151223/728c4d27-b775-4eee-87b4-9e330d252c31">
 
 
@@ -42,13 +42,13 @@ Some Snaps from homepage:-
 
 ## Try Out Links
 
-Link to the main Homepage
+Link to the main SportsPage
 
-https://therk420.github.io/jio-cinema/
+ http://127.0.0.1:5500/abesh/sports.html#
 
-Link to the second Homepage
+Link to the main LoginsPage
 
-https://therk420.github.io/jio-cinema/sourasish/home2.html
+https://therk420.github.io/jio-cinema/abesh/login.html
 
 ## Learning From The Project
 
