@@ -5,18 +5,18 @@ The homepage page on JioCinema serves as a comprehensive and user-friendly hub f
 
 
 ## Tags Used
-1) <nav>
-2) <div>
-3) <img>
-4) <button>
-5) <ul>
-6) <li>
-7) <main>
-8) <br>
-9) <p>
-10) <h4>
-11) <i>
-12) <footer>
+1) nav
+2) div
+3) img
+4) button
+5) ul
+6) li
+7) main
+8) br
+9) p
+10) h4
+11) i
+12) footer
 ## Screenshots
 
 Navbar:-
