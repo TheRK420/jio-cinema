@@ -24,6 +24,6 @@
   </ul>
   <li>Creating responsive image sliders</li>
   <ul>
-    <li></li>
+    <li>with overflow, grid and flex properties created image sliders.</li>
   </ul>
 </ul>
