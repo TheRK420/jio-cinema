@@ -508,7 +508,7 @@ main {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     gap: 2rem;
     flex-direction: row;
@@ -738,6 +738,10 @@ footer .copyright img {
       display: none;
     }
 
+    nav .right-side a{
+        display: none;
+      }
+
     .big-sport-img{
         width: 304px;
         height: 202px;
@@ -788,6 +792,10 @@ footer .copyright img {
   
     .ab-top-ad {
       display: none;
+    }
+
+    .ad5{
+        gap: 1rem;
     }
   }
   

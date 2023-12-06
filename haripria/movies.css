@@ -866,7 +866,7 @@ main {
   width: 100%;
   max-height: auto;
   border-radius: 8px;
-  background-color: black;
+  background-color: transparent;
   display: flex;
   gap: 2rem;
   flex-direction: row;
@@ -1148,6 +1148,10 @@ footer {
   }
 
   .top-ad {
+    display: none;
+  }
+
+  nav .right-side a{
     display: none;
   }
 
