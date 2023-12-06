@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,600;0,800;1,300;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
+:root {
+    --nav-brown-color: #660014;
+    --universal-black: #0D0E10;
+    --background-color: rgba(0, 0, 0, 0.87);
+    --white-color: #FFFFFF;
+    --gold-color: rgb(193, 163, 98);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: "Roboto", sans-serif;
+}
+
+/* NAV Starts */
+
+nav{
+    width: 100%;
+    background-color: var(--universal-black);
+    height: 80px;
+    padding: 0 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav .left-side{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+nav .left-side .left-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+nav .left-content button {
+    position: relative;
+    height: 2rem;
+    color: rgb(193, 163, 98);
+    margin: auto;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 6px 14px;
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+nav .left-side ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav ul li.active{
+    border: 1px solid #FFFFFF;
+    border-radius: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    min-width: 64px;
+}
+
+nav .right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .right-side .search-bar{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgb(255, 255, 255);
+    cursor: text;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 2.64rem;
+    position: relative;
+    padding: 0 14px;
+    gap: 1rem;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    border-radius: 32px;
+    transition: border-color 0.3s ease-in-out 0s;
+}
+
+nav .search-bar input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: none;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    padding: 16.5px 0px;
+}
+
+nav .right-side img{
+    height: 11%;
+    width: 11%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+}
+
+/* Nav Ends */
+/* ---------------------Your Css here----------------------------- */
+
+.wrapper{
+    max-height: 1423px;
+    border: 1px solid black;
+    display: flex;
+    overflow-x: auto;
+   top: 10%;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.image{
+    position: relative;
+}
+.wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+.wrapper  .image{
+    min-width: 1423px;
+    height: 246px;
+    line-height: 24px;
+    text-align: center;
+    margin-right:10px;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    top:10%;
+}
+.image {
+    gap: 2px;
+}
+.upper-text{
+    font-style: robota,sanserif;
+position: absolute;
+top: 10%;
+color: white;
+padding: 10px;
+font-weight: 800;
+font-size: 1.35rem;
+}
+.down img{
+  background-size:100% 100%;
+    background: fixed;
+    background-position:left top;
+    width: 100%;
+    height: 600px;
+    background-position-x: left;
+}
+.text{
+    font-style: robota,sanserif;
+position: absolute;
+top: 45%;
+left: 35%;
+color: white;
+padding: 10px;
+font-weight: 800;
+font-size: 1rem;
+}
+.text1{
+    font-style: robota,sanserif;
+position: absolute;
+top: 55%;
+left: 15%;
+color: white;
+padding: 10px;
+font-weight: 800;
+font-size: 1.25rem;
+}
+.box{
+    width:492px;
+    height: 215px;
+    padding:5px;
+   border-style: solid;
+   border-width: large;
+   border-color: rgb(165, 137, 80);
+   border-radius: 10px;
+   background-color: rgb(71, 8,72);
+    font-style:normal;
+position:absolute;
+top: 65%;
+left: 30%;
+color: white;
+padding: 10px;
+font-weight: 900;
+font-size: 1.25rem;
+}
+.box2{
+    font-style: normal;
+position: absolute;
+top: 64%;
+left: 30%;
+color: white;
+padding: 25px;
+font-weight: 800;
+font-size:25px;
+}
+.under{
+    font-size: 20px ;
+    font-weight: 5;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.month{
+    font-style: normal;
+position: absolute;
+top: 87%;
+left: 32%;
+color: goldenrod;
+padding: 5px;
+font-weight: 5;
+font-size:20px;
+border: 1px solid goldenrod;
+border-radius: 5px;
+padding-top: 1px;
+
+}
+.money{
+    font-style: normal;
+position: absolute;
+top: 86%;
+left: 58%;
+color:white;
+padding: 5px;
+font-weight:999;
+font-size:40px;
+
+padding-top: 1px;
+
+}
+.symbol{
+    font-style: normal;
+position:absolute;
+top:86%;
+left: 57.5%;
+color:white;
+font-weight:999;
+font-size:25px;
+font-weight:90px;
+
+padding-top: 1px;
+}
+.promo{
+    font-style: normal;
+position: absolute;
+background-color: transparent;
+top: 100%;
+left: 36%;
+color: white;
+padding: 10px;
+font-weight: 5;
+font-size:17px;
+border: 1px solid white;
+border-radius: 20px;
+
+
+}
+.pay{
+    font-style: normal;
+position: absolute;
+background-color: transparent;
+top: 100%;
+left: 48%;
+color: white;
+padding: 11px;
+font-weight: 100;
+font-size:17px;
+border: 1px solid rgb(175, 34, 116);
+background-color: rgb(175, 34, 116) ;
+border-radius: 20px;
+
+
+}
+    .login{
+        font-style: robota,sanserif;
+    position: absolute;
+    top: 107%;
+    left: 38%;
+    color: white;
+    padding: 10px;
+    font-weight: 10;
+    font-size: 15px;
+    }
+    .terms{
+        font-style: robota,sanserif;
+    position: absolute;
+    top: 115%;
+    left: 25%;
+    color: rgba(255, 255, 255, 0.884);
+    padding: 10px;
+    font-weight: 10;
+    font-size: 15px;
+    }
+/* .footer starts */

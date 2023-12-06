@@ -754,7 +754,7 @@ main {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
