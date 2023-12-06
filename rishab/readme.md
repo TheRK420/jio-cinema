@@ -1,9 +1,5 @@
 ## News Page, Jio Cinema
-It has been a really good task to complete the entire project with my fellow Team Members. 
-Throughout the project I learned a lot about tags of HTML and the properties of CSS. 
-Learning besides working is a treamendous experience. Making the website responsive for different 
-screen size devices was little difficult, eventually getting over all the difficulties and achiving the great user 
-experience was the utmost responsibility, has been achieved.
+The movie page on JioCinema serves as a comprehensive and user-friendly hub for each individual film within its extensive library. Users can explore and engage with the variety of content to view.
 
 ## Tags Used
 1) nav
@@ -57,9 +53,4 @@ https://therk420.github.io/jio-cinema/sourasish/home2.html
 
 ## Learning From The Project
 
-Creating the clone of Jio Cinema website was an immersive journey into HTML and CSS. Harnessing HTML's structure and CSS's styling capabilities, 
-I sculpted a visually engaging platform. Grasping the power of semantic markup, I structured content for easy navigation and accessibility,
-enhancing user experience. CSS became my artistic palette, painting the site with vibrant layouts, responsive designs, and meticulous details, 
-ensuring compatibility across devices. Embracing flexbox and grid, I orchestrated seamless alignments and fluid designs. 
-Collaborating these languages, I sculpted a virtual cinema haven, igniting my passion for web development. 
-This project was a fusion of technical learning and creative expression, a canvas where HTML and CSS wove magic into pixels.
+It was a great experince by working on a project of making a clone of jio cinema during this project i was able to learn many thing in HTML/CSS and also was abled to appy many things which i have learned in the project i was able to learn the flex box , more about background properties and different types of border properties.Apart from this i have learned about work managment.
