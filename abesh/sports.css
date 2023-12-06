@@ -823,6 +823,10 @@ footer .copyright img {
       display: none;
     }
 
+    .ab-slider-logo{
+        display: none;
+    }
+
     nav .right-side a{
         display: none;
       }
