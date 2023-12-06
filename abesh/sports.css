@@ -4,6 +4,9 @@
     --nav-brown-color: #660014;
 }
 
+body {
+    background-color: black;
+}
 
 *{
     margin: 0;
@@ -12,10 +15,10 @@
 }
 
 /* NAV Starts */
-body {
+/* body {
     background: rgb(13, 14, 16);
-    /* margin-left: 1rem; */
-}
+    margin-left: 1rem;
+} */
 
 h1,h2,h3,h4,h5,h6,p,a,span,button,li,input,textarea,label,select,option {
     font-family: "Open-Sans", sans-serif;
@@ -242,6 +245,7 @@ main {
 .spo-text {
     color: #FFFFFF;
     padding-bottom: 8px;
+    /* overflow-y: auto; */
 }
 
 .sport-carousal {
@@ -321,6 +325,7 @@ main {
     /* overflow-y: hidden; */
     height: 154px;
     overflow-y: visible;
+    height: 199px;
 }
 
 .wrapper3 {
@@ -359,6 +364,7 @@ main {
     cursor: pointer;
      /* background-color: white; */
     opacity: 1; 
+    height: 160px;
 }
 
 .banner-img .spo-text {
@@ -368,6 +374,7 @@ main {
 .img_text {
     position: absolute;
     top: 80%;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
@@ -516,6 +523,15 @@ main {
   .ad5 a:hover {
     color: cyan;
     transition: color 0.5s ease-in-out;
+  }
+
+    .ab-square {
+        height: 133px;
+        width: 133px;
+        cursor: pointer;
+    }
+  .ab-square:hover {
+        background-color: #3e3f41;
   }
 
 /* small device */
