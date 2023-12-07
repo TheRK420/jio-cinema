@@ -45,11 +45,7 @@ Some Snaps from homepage:-
 
 Link to the main Homepage
 
-https://therk420.github.io/jio-cinema/
-
-Link to the second Homepage
-
-https://therk420.github.io/jio-cinema/sourasish/home2.html
+https://therk420.github.io/jio-cinema/rishab/news.html
 
 ## Learning From The Project
 
