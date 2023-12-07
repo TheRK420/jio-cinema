@@ -448,7 +448,7 @@ main {
     width: 100%;
     max-height: auto;
     border-radius: 8px;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1120,8 +1120,8 @@ footer .copyright img {
         height: 302px;
     }
 
-    .slider {
-        display: none;
+    .slider{
+        top: 35.7rem;
     }
 }
 
