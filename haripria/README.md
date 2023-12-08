@@ -15,6 +15,25 @@
   <li>CSS</li>
 </ul>
 
+<h1>Different tags used</h1>
+<ul>
+  <li>sematic tags</li>
+  <ul>
+    <li>header</li>
+    <li>footer</li>
+    <li>nav</li>
+    
+  </ul>
+  <li>main tags</li>
+  <ul>
+    <li>p</li>
+    <li>img</li>
+    <li>div</li>
+    <li>h1, ..., h6</li>
+    <li>i</li>
+  </ul>
+</ul>
+
 <h1>Challenges Faced</h1>
 <p>During the development of this extension, I encountered several challenges. Here are some of the difficulties I faced and how I overcame them:</p>
 <ul>
